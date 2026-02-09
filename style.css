@@ -1,0 +1,140 @@
+*{
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+}
+body{
+       min-height: 100vh;
+       background-color: #edecec;
+}
+a{
+       text-decoration: none;
+}
+li{
+       list-style-type: none;
+}
+
+main{
+       width: 100%;
+}
+.menu{
+       width: 100%;
+       height: 60px;
+       background-color: #f3f3f3;
+       >ul{
+              width: 100%;
+              height: 100%;
+              background-color: inherit;
+              display: flex;
+              >li{
+                     width: 50%;
+                     transition: .4s;
+                     &:hover{
+                                   border-bottom: 4px solid rgb(0, 142, 189);
+                            }
+                     >a{
+                            display: flex;
+                            width: 100%;
+                            height: 100%;
+                            color: rgb(0, 142, 189);
+                            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                            align-items: center;
+                            justify-content: center;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            padding: 0 20px;
+                     }
+              }
+
+       }
+}
+
+.colors{
+       width: 100%;
+       background-color: #fff;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin: auto;
+       padding: 5px 0;
+       >div{
+              width: 270px;
+              height: 300px;
+              margin: 5px ;
+              display: flex;
+              flex-wrap: wrap;
+              &:first-of-type{
+                     background-color: #f4f1de;
+              }
+              &:nth-of-type(2){
+                     background-color: #e07a5f;
+              }
+               &:nth-of-type(3){
+                     background-color: #3d405b;
+              }
+               &:nth-of-type(4){
+                     background-color: #81b29a;
+              }
+               &:nth-of-type(5){
+                     background-color: #f2cc8f;
+              }
+               &:nth-of-type(6){
+                     background-color: #edafb8;
+              }
+               &:nth-of-type(7){
+                     background-color: #f7e1d7;
+              }
+               &:nth-of-type(8){
+                     background-color: #dedbd2;
+              }
+               &:nth-of-type(9){
+                     background-color: #b0c4b1;
+              }
+               &:nth-of-type(10){
+                     background-color: #4a5759;
+              }
+               &:nth-of-type(11){
+                     background-color: #355070;
+              }
+               &:nth-of-type(12){
+                     background-color: #6d597a;
+              }
+               &:nth-of-type(13){
+                     background-color: #b56576;
+              }
+               &:nth-of-type(13){
+                     background-color: #e56b6f;
+              }
+               &:nth-of-type(14){
+                     background-color: #eaac8b;
+              }
+               &:last-of-type{
+                     background-color: #a9aca9;
+              }
+              >*{
+                     width: 100%;
+              }
+              >div{
+                     &:first-of-type{
+                            height: 250px;
+                     }
+              }
+              .caption{
+                     height: 50px;
+                     display: flex;
+                     height: 50px;
+                     width: 100%;
+                     background-color: #fff;
+                     align-items: start;
+                     padding-top: 5px;
+                     justify-content: left;
+                     padding-left:10px;
+                     text-transform: capitalize;
+                     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                     border: 2px solid #b8b2b27f;
+                     border-top: none;
+                     font-weight: 500;
+                     color: #2e2e2e;
+              }
+       }
+}
